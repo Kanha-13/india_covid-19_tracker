@@ -1,0 +1,66 @@
+.header{
+    text-align: center;
+    background-color: grey;
+}
+.stateWiseStatus{
+    margin: auto;
+    background-color: black;
+    background-color: white;
+}
+
+table{
+    align-self: center;
+}
+.State{
+    width: 30vw;
+}
+.data:hover{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Confirmed,.Active,.Recovered,.Last{
+    width: 12vw;
+    margin: 2px;
+}
+.Deaths,.Delta{
+    width: 11vw;
+}
+
+/* element hover  */
+.Confirmed:hover{
+    background-color: yellow;
+}
+.Recovered:hover{
+    background-color: rgb(41, 240, 41);
+}
+.Deaths:hover{
+    background-color: rgb(255, 0, 0);
+}
+.Delta:hover{
+    color: white;
+    background-color: black;
+}
+.Active:hover{
+    background-color: orange;
+}
+.Last:hover{
+    background-color: white;
+}
+
+/* table decoration  */
+th{
+    font-size: 18px;
+    background-color: rgb(146, 143, 143);
+}
+td,th{
+    text-align: left;
+}
+
+.grey{
+    background-color: rgb(199, 191, 191);
+    border: 2px 0px 2px 0px solid grey;
+}
+.white{
+    background-color: rgb(233, 227, 227);
+}
