@@ -1,6 +1,7 @@
 .header{
     text-align: center;
     background-color: grey;
+    width: 100vw;
 }
 .stateWiseStatus{
     margin: auto;
